@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marybeth Kuttner | Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #222;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 40px 20px;
+      background: #fff;
+    }
+    .header-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    h1 {
+      font-size: 28px;
+      margin-bottom: 5px;
+    }
+    .subtitle {
+      color: #555;
+      margin-bottom: 30px;
+    }
+    .image {
+      width: 100%;
+      border-radius: 6px;
+    }
+    .section {
+      margin: 40px 0;
+    }
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 20px;
+    }
+    .feature {
+      flex: 1;
+      min-width: 220px;
+      text-align: center;
+    }
+    .feature img {
+      width: 40px;
+      margin: 0 auto 10px;
+    }
+    .feature h3 {
+      margin: 10px 0 5px;
+    }
+    .highlight-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      margin-bottom: 30px;
+    }
+    .highlight-text {
+      flex: 1;
+    }
+    .highlight-image {
+      flex: 1;
+      max-width: 300px;
+      border-radius: 6px;
+    }
+    .about-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+    .about-text {
+      flex: 1;
+    }
+    .about-icon {
+      flex: 1;
+      max-width: 300px;
+      border-radius: 6px;
+    }
+    .button {
+      display: inline-flex;
+      align-items: center;
+      padding: 10px 15px;
+      background-color: #3366cc;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 14px;
+    }
+    .button svg {
+      width: 16px;
+      height: 16px;
+      margin-right: 8px;
+      fill: white;
+    }
+    a {
+      color: #3366cc;
+    }
+    .contact-buttons {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header-row">
+      <h1>Marybeth K.</h1>
+      <a class="button" href="MK_CV_Remote_Tech_2025.pdf" download>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5v2zM12 2v12l4-4h-3V2h-2v8H8l4 4z"/></svg>
+        Download CV
+      </a>
+    </div>
+    <p class="subtitle">Helping people solve real problems by building VPNs, automating workflows in Excel, and delivering calm, reliable tech support.</p>
+    <img src="header.png" alt="Workspace with Laptop" class="image">
+
+    <div class="section features">
+      <div class="feature">
+        <img src="VPNIcon.png" alt="VPN Icon">
+        <h3>Stealth VPN Setup<br>(REALITY + TLSAVS)</h3>
+        <p>Configuring private, censorship-resistant VPN servers with stealth protocols and domain fallback.</p>
+      </div>
+      <div class="feature">
+        <img src="VBAAutomationIcon.png" alt="Excel VBA Icon">
+        <h3>Excel & VBA Automation</h3>
+        <p>Creating macros, dashboards, and tools to automate reports, calculations, and workflows.</p>
+      </div>
+      <div class="feature">
+        <img src="TechSupportIcon.png" alt="Tech Support Icon">
+        <h3>Remote Tech Support</h3>
+        <p>Kind, calm help for people struggling with tech. Screensharing, step-by-step guidance, and documentation.</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>About Me</h2>
+      <div class="about-item">
+        <div class="about-text">
+          <p>I'm passionate about solving real-world tech problems and building tools that actually help people. I love combining logic and creativity—whether that's building VPN infrastructure, automating spreadsheets, or just helping someone fix their email.</p>
+        </div>
+        <img src="AboutMe.png" alt="About Me Icon" class="about-icon">
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Project Highlights</h2>
+
+      <div class="highlight-item">
+        <div class="highlight-text">
+          <h4>Custom VPN Infrastructure (2025)</h4>
+          <p>Built two stealth VPNs (REALITY + TLS+WS) from scratch for use in censorship-heavy regions. Configured fallback domains, REALITY private keys, scripts, TLS certs, and user onboarding.</p>
+        </div>
+        <img src="terminal.png" alt="Terminal with Bash Script" class="highlight-image">
+      </div>
+
+      <div class="highlight-item">
+        <div class="highlight-text">
+          <h4>Invoice Generator (Excel VBA)</h4>
+          <p>Automated invoice generation using Excel macros. One-click formatted output with customizable client and line items.</p>
+        </div>
+        <img src="excel.png" alt="Invoice Generator Preview" class="highlight-image">
+      </div>
+
+      <div class="highlight-item">
+        <div class="highlight-text">
+          <h4>Dynamic UserForm Generator (Excel VBA)</h4>
+          <p>Built a modular Excel tool where UserForms are generated entirely from sheet-based configuration. Supports labels, text boxes, drop-downs, checkboxes, buttons, and dynamic theme switching (Professional, Playful, Dark, Easy).</p>
+        </div>
+        <img src="Screenshot%20(129).png" alt="Dynamic Form Config Layout" class="highlight-image">
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Contact</h2>
+      <p><a href="mailto:mk@inkofemotion.com">mk@inkofemotion.com</a></p>
+      <div class="contact-buttons">
+        <a class="button" href="MK_CV_Remote_Tech_2025.pdf" download>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5v2zM12 2v12l4-4h-3V2h-2v8H8l4 4z"/></svg>
+          Download CV
+        </a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
